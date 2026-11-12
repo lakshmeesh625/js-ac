@@ -87,6 +87,65 @@ while (k <= 10) {
 }
 
 
+// do while loop
+
+
+// execute the code at least once and then check the condition if it is true then execute again and again until the condition is false
+
+let l = 1;
+
+do {
+    console.log(l);
+    l++;
+} while (l <= 10);
+
+
+
+// for of loop
+// for of loop is used to iterate over the elements of a string, array, or other iterable objects
+
+let str = "Hello world";
+let size1 = 0;
+for (let char of str) {
+    console.log(char);
+    size1++;
+}
+console.log("Size of the string is: " + size1);
+
+
+
+let arr = [1, 2, 3, 4, 5];
+
+let size = 0;
+for (let char of arr) {
+    console.log(char);
+    size++;
+}
+
+
+console.log("Size of the array is: " + size);
+
+
+
+
+
+
+let student = {
+    name: "Ashok",
+    age : 21,
+    CGPA: 7.5,
+    passed : true
+}
+
+
+
+
+for (let detail in student) {
+    console.log(`key = ${detail}, value = ${student[detail]}`)
+}
+
+
+
 
 
 
